@@ -4,6 +4,7 @@ This is the file that I wrote for my physics thesis entitled "Development of a C
 Each filament was tested using different setting on the ultrasound machine. I have included five images of the 0.06mm filament using a setting of filter 0.
 
 **Program operation - Taken from my Thesis**
+
 1) The program prompts the user to select the folder containing the images. The folder must contain 5 images and must be numbered 1 to 5. It then prompts the user to select the first image and then the fifth image. This tells MATLAB that there are 5 images, numbered from 1 to 5.
 
 2) The next section of the program deals with calibrating the images. A line must be fit over a know distance such as the depth line indicator on the right side of the image and the distance must be input in mm, in this case 160mm is input. This then determines a value for the number of millimetres per pixel. The user is then asked to select two points on the image, one above and one below the filament, in as straight a line as possible. This ensures that the same region is investigated for all the images in the batch. The calibration stage and the user required stage is now complete.
